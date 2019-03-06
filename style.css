@@ -1,0 +1,48 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.mountains {
+    position: absolute;
+    overflow: hidden;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    background: lightskyblue;
+}
+
+.mountains .m1, .mountains .m2 {
+    position: absolute;
+    left: -50px;
+    bottom: -50px;
+    width: 120%;
+    z-index: 1;
+}
+
+.mountains .m1 {
+    z-index: 10;
+}
+
+.mountains .m2 {
+    opacity: .5;
+    left: -300px;
+}
+.fly
+{display: inline-block;
+    position: relative;
+    cursor: pointer;
+    animation-name: move;
+    animation-duration: 5s;
+    animation-direction: alternate;
+    animation-delay: s;
+    animation-timing-function: ease-in; */
+    animation-iteration-count:infinite;
+}
+
+ @keyframes move{
+    from{ margin-left:0%;}
+  
+    to{margin-left: 100%;}
+}
