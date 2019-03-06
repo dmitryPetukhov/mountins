@@ -42,7 +42,7 @@ html, body {
 }
 
  @keyframes move{
-    from{ margin-left:0%;}
+    from{ margin-left:-10%;}
   
     to{margin-left: 100%;}
 }
