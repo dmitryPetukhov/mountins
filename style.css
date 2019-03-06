@@ -46,3 +46,21 @@ html, body {
   
     to{margin-left: 100%;}
 }
+.fly2
+{display: none;
+    position: relative;
+    cursor: pointer;
+    animation-name: move2;
+    animation-duration: 5s;
+    animation-direction: alternate-reverse;
+    animation-delay: s;
+    animation-timing-function: ease-in; 
+    animation-iteration-count:infinie;
+    
+}
+
+ @keyframes move2{
+    from{ margin-left:-10%;}
+  
+    to{margin-left: 100%;}
+}

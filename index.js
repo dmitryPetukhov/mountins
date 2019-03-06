@@ -15,5 +15,21 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     });
 });
+window.onload = function(){
+    let m = document.querySelector('.fly')
+    setTimeout(function(){
+        m.style.display = 'none';
+    },5000);
+
+    let n = document.querySelector('.fly2')
+    setTimeout(function(){
+        n.style.display = 'inline-block';
+    },7000);
+
+    let a = document.querySelector('.fly2')
+    setTimeout(function(){
+        a.style.display = 'none';
+    }, 12000);
+}
 
 
